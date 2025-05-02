@@ -1,0 +1,14 @@
+{
+  "name": "parcel-html250501",
+  "scripts":{
+    "dev": "parcel serve src/index.html --open",
+    "build": "parcel build src/index.html --dist-dir build"
+  },
+  "devDependencies": {
+    "axios": "^1.9.0",
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3"
+  }
+}
